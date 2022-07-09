@@ -336,7 +336,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 
     display: block;
     padding-left: 0;
-    max-width: 231px;
+    width: 231px;
     margin-top: 20px;
     margin-bottom: 0;  
         
@@ -398,7 +398,47 @@ word-spacing: -0.29em;
        
 }
 
+.footer-subscribe {
+    margin-left: 93px;
+    padding-top: 12px;
+    width: 570px;
+   
+}
 
+
+
+.subscribe-label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+
+
+
+.subscribe-input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    
+       
+        align-items: center;
+        letter-spacing: 0.03em;
+    background-color: var(--darkness-bg-color);
+        color: rgba(255, 255, 255, 0.6);
+
+        border: 1px solid rgba(255, 255, 255, 0.3);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+}
 
 
 .smi-footer {
