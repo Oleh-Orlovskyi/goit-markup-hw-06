@@ -1102,6 +1102,7 @@ margin-top: 20px;
         text-decoration-line: underline;
         color: var(--blue-txt-color);
         cursor: pointer;
+       margin-left: 4px;
 }
 
 
