@@ -421,7 +421,7 @@ word-spacing: -0.29em;
 
 
 .subscribe-input {
-    width: 356px;
+    width: 358px;
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 13px;
@@ -443,7 +443,7 @@ word-spacing: -0.29em;
 
 .footer-subscribe-btn {
     
-    margin-left: 9px;
+    margin-left: 8px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -457,7 +457,7 @@ word-spacing: -0.29em;
     padding-bottom: 9px;
     cursor: pointer;
     border: none;
-    padding-left: 27px;
+    width: 200px;
     
 }
 
@@ -469,7 +469,6 @@ word-spacing: -0.29em;
     height: 24px;
     background-image: url('../images/icon\ send.svg');
     margin-left: 10px;
-    margin-right: 26px;
     transform: translateY(25%);
     border: none;
     
