@@ -400,10 +400,9 @@ word-spacing: -0.29em;
 }
 
 .footer-subscribe {
-    display: block;
     margin-left: 93px;
-    /*width: 570px;*/
     padding-top: 8px;
+
 }
 
 
@@ -411,11 +410,11 @@ word-spacing: -0.29em;
    display: inline-block;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-   margin-bottom: 27px;
+   margin-bottom: 20px;
   
   
 }
@@ -444,7 +443,7 @@ word-spacing: -0.29em;
 
 .footer-subscribe-btn {
     
-    margin-left: 12px;
+    margin-left: 7px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -455,10 +454,10 @@ word-spacing: -0.29em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 9px;
     cursor: pointer;
     border: none;
-    padding-left: 29px;
+    padding-left: 27px;
     
 }
 
@@ -470,8 +469,9 @@ word-spacing: -0.29em;
     height: 24px;
     background-image: url('../images/icon\ send.svg');
     margin-left: 10px;
-    margin-right: 19px;
+    margin-right: 26px;
     transform: translateY(25%);
+    border: none;
     
     
 }
@@ -1045,9 +1045,10 @@ margin-bottom: 30px;
 }
 
 .placeholder {
+    margin-bottom: 20px;
     
-    margin-top: 20px;
 }
+
 
 .form-input-check:checked + .border-check {
     fill: var(--blue-fill-color);
@@ -1093,8 +1094,8 @@ margin-bottom: 30px;
     height: 120px;
 }
 .form-fields input {
-   padding-top: 11px;
-   padding-bottom: 11px;
+   padding-top: 12px;
+   padding-bottom: 12px;
     padding-left: 42px;
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1122,6 +1123,12 @@ margin-bottom: 30px;
 }
 
 
+.form-btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn-submit {
     
     cursor: pointer;
@@ -1140,7 +1147,6 @@ margin-bottom: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border:none;
-    margin-left: 120px;
     padding: 10px 56px;
     
     transition: var(--anim);
